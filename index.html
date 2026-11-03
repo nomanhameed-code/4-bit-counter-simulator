@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4-Bit Counter Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>4-Bit Counter Simulator</h1>
+
+    <h2>4-Bit LEDs</h2>
+
+    <div>
+        <span id="led1">⚫</span>
+        <span id="led2">⚫</span>
+        <span id="led3">⚫</span>
+        <span id="led4">⚫</span>
+    </div>
+
+    <h2>Binary: <span id="binary">0000</span></h2>
+
+    <h2>Decimal: <span id="decimal">0</span></h2>
+
+    <button onclick="upCounter()">Up</button>
+    <button onclick="downCounter()">Down</button>
+    <button onclick="resetCounter()">Reset</button>
+
+    <br><br>
+
+    <button onclick="startAuto('up')">Auto Up</button>
+    <button onclick="startAuto('down')">Auto Down</button>
+    <button onclick="stopAuto()">Stop</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
