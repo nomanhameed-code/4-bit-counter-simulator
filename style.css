@@ -1,0 +1,109 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Input Area Styling */
+#input-area {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 18px;
+    margin: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+/* Result Area Styling */
+#result-area {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+/* LED Styling */
+#result-area span {
+    font-size: 25px;
+    margin: 8px;
+}
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaf4ff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #25234a;
+}
+
+/* Header Styling */
+header {
+    background-color: #35245f;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* Input Area Styling */
+#input-area {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    margin: 8px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background-color: #6546a5;
+    color: white;
+}
+
+button:hover {
+    background-color: #432b78;
+}
+
+/* Result Area Styling */
+#result-area {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* LED Styling */
+#result-area span {
+    font-size: 28px;
+    margin: 8px;
+}
