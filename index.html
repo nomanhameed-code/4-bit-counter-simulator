@@ -3,34 +3,48 @@
 <html>
 <head>
     <title>4-Bit Counter Simulator</title>
-    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="stylee.css">
 </head>
+
 <body>
 
-    <h1>4-Bit Counter Simulator</h1>
+    <header>
+        <h1>4-Bit Counter Simulator</h1>
+        <p>Digital Binary Counting System</p>
+    </header>
 
-    <h2>4-Bit LEDs</h2>
+    <div id="input-area">
+        <h2>Counter Controls</h2>
 
-    <div>
-        <span id="led1">⚫</span>
-        <span id="led2">⚫</span>
-        <span id="led3">⚫</span>
-        <span id="led4">⚫</span>
+        <button onclick="upCounter()">UP</button>
+        <button onclick="downCounter()">DOWN</button>
+        <button type="button">CLOCK</button>
+        <button onclick="resetCounter()">RESET</button>
+
+        <br>
+
+        <button onclick="startAuto('up')">AUTO UP</button>
+        <button onclick="startAuto('down')">AUTO DOWN</button>
+        <button onclick="stopAuto()">STOP</button>
     </div>
 
-    <h2>Binary: <span id="binary">0000</span></h2>
+    <div id="result-area">
+        <h2>Counter Results</h2>
 
-    <h2>Decimal: <span id="decimal">0</span></h2>
+        <h3>Binary: <span id="binary">0000</span></h3>
 
-    <button onclick="upCounter()">Up</button>
-    <button onclick="downCounter()">Down</button>
-    <button onclick="resetCounter()">Reset</button>
+        <h3>Decimal: <span id="decimal">0</span></h3>
 
-    <br><br>
+        <h3>Four Bit LEDs</h3>
 
-    <button onclick="startAuto('up')">Auto Up</button>
-    <button onclick="startAuto('down')">Auto Down</button>
-    <button onclick="stopAuto()">Stop</button>
+        <div class="leds">
+            <span id="led1">⚫</span>
+            <span id="led2">⚫</span>
+            <span id="led3">⚫</span>
+            <span id="led4">⚫</span>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 
