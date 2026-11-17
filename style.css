@@ -1,109 +1,88 @@
-/* General Page Styling */
+
+/* Main Page Design */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #e8f1f8;
     text-align: center;
     margin: 0;
     padding: 20px;
+    color: #263746;
 }
 
-/* Header Styling */
+/* Header */
 header {
-    background-color: #333333;
+    background-color: #294c60;
     color: white;
-    padding: 20px;
-    border-radius: 8px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
-/* Input Area Styling */
-#input-area {
-    background-color: white;
+/* All Sections */
+#input-area,
+#result-area,
+#history-area {
+    background-color: #ffffff;
     padding: 20px;
     margin: 20px auto;
-    border-radius: 8px;
+    border-radius: 10px;
+    max-width: 850px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.10);
 }
 
-/* Button Styling */
+/* Headings */
+h2 {
+    color: #294c60;
+}
+
+/* Buttons */
 button {
-    padding: 10px 18px;
-    margin: 8px;
-    font-size: 15px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    background-color: #007bff;
+    background-color: #397d75;
     color: white;
+    border: none;
+    padding: 11px 20px;
+    margin: 7px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-/* Result Area Styling */
-#result-area {
-    background-color: white;
-    padding: 20px;
-    margin: 20px auto;
-    border-radius: 8px;
+/* Button Hover Effect */
+button:hover {
+    background-color: #24564f;
 }
 
-/* LED Styling */
+/* Binary and Decimal Display */
 #result-area span {
     font-size: 25px;
     margin: 8px;
+    font-weight: bold;
 }
-/* General Page Styling */
-body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #eaf4ff;
+
+/* LEDs */
+.leds {
+    margin: 15px;
+}
+
+/* History Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #cbd5dc;
+    padding: 10px;
     text-align: center;
-    margin: 0;
-    padding: 20px;
-    color: #25234a;
 }
 
-/* Header Styling */
-header {
-    background-color: #35245f;
-    color: white;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 25px;
-}
-
-/* Input Area Styling */
-#input-area {
-    background-color: #ffffff;
-    padding: 25px;
-    margin: 20px auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* Button Styling */
-button {
-    padding: 12px 20px;
-    margin: 8px;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    border: none;
-    border-radius: 7px;
-    background-color: #6546a5;
+th {
+    background-color: #294c60;
     color: white;
 }
 
-button:hover {
-    background-color: #432b78;
-}
-
-/* Result Area Styling */
-#result-area {
-    background-color: #ffffff;
-    padding: 25px;
-    margin: 20px auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* LED Styling */
-#result-area span {
-    font-size: 28px;
-    margin: 8px;
+td {
+    background-color: #f1f7fa;
 }
